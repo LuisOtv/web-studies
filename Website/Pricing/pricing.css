@@ -1,0 +1,97 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 10px;
+}
+.header {
+	margin-bottom: auto;
+	margin-inline: 200px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+.options {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.content {
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.logo-small {
+	height: 50px;
+}
+.logo-big {
+	height: 300px;
+}
+h1 {
+	font-size: 80px;
+	color: white;
+}
+h5 {
+	padding: 10px;
+}
+.subscribe {
+	background: #4f51fb;
+	color: white;
+	border-radius: 25px;
+	border-color: #4f51fb;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 40px;
+	width: 100px;
+}
+.search {
+	color: white;
+	height: 40px;
+	width: 350px;
+	border-radius: 25px;
+	background-color: transparent;
+	border-color: white;
+}
+.content-buttons {
+	display: flex;
+}
+.footer {
+	margin-top: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.logo-bottom {
+	height: 30px;
+}
+.price-card {
+	background-color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25px;
+}
+.price-image {
+	padding: 30px;
+	height: 100px;
+}
+.simple {
+	background-color: transparent;
+	color: white;
+	border-color: transparent;
+}
+button {
+	font-weight: bold;
+	cursor: pointer;
+}
+.simple:hover {
+	color: gray;
+}
+.left {
+	padding: 30px;
+	width: 300px;
+	background-color: darkgray;
+	border-radius: 25px;
+}
+p {
+	text-wrap: wrap;
+}
