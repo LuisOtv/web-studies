@@ -1,102 +1,108 @@
+* {
+  box-sizing: border-box;
+}
 body {
-	background-color: black;
-	color: white;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	padding: 10px;
+  margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-evenly;
 }
 .header {
-	margin-bottom: auto;
-	margin-inline: 200px;
-	background-color: black;
-	display: flex;
-	justify-content: space-between;
+  margin-inline: auto;
+  max-width: calc(100% - 400px);
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
 .options {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .content {
-	margin-block: 100px;
-	margin-inline: 200px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  margin-inline: auto;
+  max-width: calc(100% - 400px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo-small {
-	height: 50px;
+  height: 50px;
 }
 .logo-big {
-	height: 300px;
+  height: 300px;
 }
 h1 {
-	font-size: 80px;
-	color: white;
+  font-size: 80px;
+  color: white;
 }
 h5 {
-	padding: 10px;
+  padding: 10px;
 }
 .subscribe {
-	background: #4f51fb;
-	color: white;
-	border-radius: 25px;
-	border-color: #4f51fb;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	height: 40px;
-	width: 100px;
+  background: #4f51fb;
+  color: white;
+  border-radius: 25px;
+  border-color: #4f51fb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 40px;
+  width: 100px;
 }
 .search {
-	color: white;
-	height: 40px;
-	width: 350px;
-	border-radius: 25px;
-	background-color: transparent;
-	border-color: white;
+  color: white;
+  height: 40px;
+  width: 350px;
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: white;
+  margin-bottom: 20px;
 }
 .content-buttons {
-	display: flex;
+  display: flex;
 }
-.button-trial {
-	margin-top: 20px;
-	background-color: #4f51fb;
-	color: white;
-	border-radius: 25px;
-	border-color: #4f51fb;
-	height: 40px;
-	width: 100px;
+.blue-button {
+  background-color: #4f51fb;
+  color: white;
+  border-radius: 25px;
+  border-color: #4f51fb;
+  height: 40px;
+  width: 100px;
 }
 .button-see {
-	margin: 20px;
-	color: white;
-	background-color: transparent;
-	border-radius: 25px;
-	border-color: white;
-	height: 40px;
-	width: 100px;
+  margin-left: 20px;
+  color: white;
+  background-color: transparent;
+  border-radius: 25px;
+  border-color: white;
+  height: 40px;
+  width: 100px;
 }
 .footer {
-	margin-top: auto;
-	display: flex;
-	justify-content: space-around;
+  margin-inline: auto;
+  max-width: calc(100% - 400px);
+  display: flex;
+  justify-content: space-around;
 }
 .logo-bottom {
-	height: 30px;
+  height: 30px;
 }
 .title {
-	line-height: 0;
+  line-height: 0;
 }
-.subtitle {
-	line-height: 20px;
-}
-.simple {
-	background-color: transparent;
-	color: white;
-	border-color: transparent;
+.simple_button {
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
 }
 button {
-	font-weight: bold;
-	cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
-.simple:hover {
-	color: gray;
+.simple_button:hover {
+  color: gray;
 }
